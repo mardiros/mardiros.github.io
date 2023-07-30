@@ -16,7 +16,7 @@ def _get_project_meta():
 
 pkg_meta = _get_project_meta()
 project = str(pkg_meta["description"])  # type: ignore
-copyright = f"2023-{datetime.utcnow().year}, Gandi"
+copyright = f"2023-{datetime.utcnow().year}, unencumbered software released"
 author = ", ".join(pkg_meta["authors"])  # type: ignore
 
 # -- General configuration ---------------------------------------------------
