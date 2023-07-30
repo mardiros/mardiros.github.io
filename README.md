@@ -2,6 +2,8 @@
 
 As a developper, I want to to learn and share my knowledge, so that I make progress.
 
+[![Doc](https://github.com/mardiros/mardiros.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mardiros/mardiros.github.io/actions/workflows/gh-pages.yml)
+
 Please [visit https://mardiros.github.io/](https://mardiros.github.io/) for the full
 version.
 
