@@ -18,3 +18,4 @@ jobs:
       uses: sphinx-notes/pages@v3
       with:
         requirements_path: requirements.txt
+        pyproject_extras: "not for you"
