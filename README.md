@@ -46,3 +46,12 @@ It support both synchronous and asynchronous code based on asyncio.
 The full documentation is here: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
 
 The project is stable and mature.
+
+### Fastlife
+
+[fastlife](https://mardiros.github.io/fastlife/) is an asynchronous web framework based on fastapi.
+The  idea is to build web application quickly.
+
+The full documentation is here: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
+
+The project is in development
