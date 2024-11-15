@@ -27,12 +27,12 @@ Some web framework integration exists that are extra packages:
 * [dj-blacksmith - blacksmith for Django](https://mardiros.github.io/dj-blacksmith/)
 * [pyramid-blacksmith - blacksmith for Pyramid](https://mardiros.github.io/pyramid-blacksmith/)
 
-### Jeepito
+### messagebus
 
-[Jeepito](https://mardiros.github.io/jeepito/) is a library to build an event driven
+[messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
 architecture in Python 3. It support both synchronous and asynchronous code based on asyncio.
 
-The full documentation is here: [https://mardiros.github.io/jeepito/](https://mardiros.github.io/jeepito/).
+The full documentation is here: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
 
 This project is not production ready yet.
 
