@@ -1,11 +1,6 @@
 # Mardiros' Personal Projects.
 
-As a developper, I want to to learn and share my knowledge, so that I make progress.
-
-[![Doc](https://github.com/mardiros/mardiros.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mardiros/mardiros.github.io/actions/workflows/gh-pages.yml)
-
-Please [visit https://mardiros.github.io/](https://mardiros.github.io/) for the full
-version.
+Hi, I am mardiros, and I do programming. Mostly in python, rust.
 
 ## Python Libraries
 
@@ -24,19 +19,17 @@ The project is stable and mature.
 
 Some web framework integration exists that are extra packages:
 
-* [dj-blacksmith - blacksmith for Django](https://mardiros.github.io/dj-blacksmith/)
-* [pyramid-blacksmith - blacksmith for Pyramid](https://mardiros.github.io/pyramid-blacksmith/)
-
+- [dj-blacksmith - blacksmith for Django](https://mardiros.github.io/dj-blacksmith/)
+- [pyramid-blacksmith - blacksmith for Pyramid](https://mardiros.github.io/pyramid-blacksmith/)
 
 ### Fastlife
 
 [fastlife](https://mardiros.github.io/fastlife/) is an asynchronous web framework based on fastapi.
-The  idea is to build web application quickly.
+The idea is to build web application quickly.
 
 The full documentation is here: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
 
 The project is in development
-
 
 ### messagebus
 
@@ -47,17 +40,14 @@ The full documentation is here: [https://mardiros.github.io/messagebus/](https:/
 
 This project is not production ready yet.
 
-
 ### Purgatory
 
 [purgatory](https://mardiros.github.io/purgatory/) is a circuit breaker implementation for Python 3.
 It support both synchronous and asynchronous code based on asyncio.
 
-
 The full documentation is here: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
 
 The project is stable and mature.
-
 
 ### lastuuid
 
@@ -65,14 +55,12 @@ The project is stable and mature.
 
 The project is does not implement uuid7, it is a binding to uuid7 in rust using pyo3.
 
-
 ### subenv
 
 [subenv](https://github.com/mardiros/subenv/) is library to substitute environment variable on the fly
 while reading a file stream.
 
 It has been implemented in rust and bind with pyo3 to run blazingly fast.
-
 
 ### plaster-yaml
 
@@ -92,3 +80,23 @@ using a yaml file instead of python module.
 It also use subenv in order to inject secrets or any other settings replaced on the fly while
 reading the configuration. It let maximum of flexibility and keep the loaded python object
 as a single point of truth for the configuration.
+
+## Rust libraries en tools
+
+### Rustaman
+
+[rustaman](https://github.com/mardiros/rustaman/) is a HTTP client template makes for
+day to day query.
+
+It's like a postman but not designed as a clickodrome. HTTP query templatized with
+mustache.
+
+### Cabot
+
+[cabot](https://github.com/mardiros/cabot/) is a HTTP CLI client like curl, but it is
+also a library, like reqwest.
+
+### Bearer
+
+[bearer](https://github.com/mardiros/bearer/) is a oauth2 authorization token made
+for CLI.
