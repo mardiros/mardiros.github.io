@@ -61,7 +61,7 @@ The project is stable and mature.
 
 ### lastuuid
 
-[lastuuid](https://github.com/mardiros/lastuuid/) is a small to generate UUIDv7 that works with Pydantic.
+[lastuuid](https://mardiros.github.io/lastuuid/) is a small to generate UUIDv7 that works with Pydantic.
 
 The project is does not implement uuid7, it is a binding to uuid7 in rust using pyo3.
 
