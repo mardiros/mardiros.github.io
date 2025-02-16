@@ -55,12 +55,15 @@ The project is stable and mature.
 
 The project is does not implement uuid7, it is a binding to uuid7 in rust using pyo3.
 
-### subenv
+### envsub
 
-[subenv](https://github.com/mardiros/subenv/) is library to substitute environment variable on the fly
+[envsub](https://github.com/mardiros/envsub/) is library to substitute environment variable on the fly
 while reading a file stream.
 
 It has been implemented in rust and bind with pyo3 to run blazingly fast.
+
+The full documentation is here: [https://mardiros.github.io/envsub/](https://mardiros.github.io/envsub/).
+
 
 ### plaster-yaml
 
@@ -68,7 +71,7 @@ It has been implemented in rust and bind with pyo3 to run blazingly fast.
 
 in a yaml (or json) format instead of .ini file.
 
-It also use subenv in order to inject secrets or any other settings replaced on the fly while
+It also use envsub in order to inject secrets or any other settings replaced on the fly while
 reading the configuration. It let maximum of flexibility and keep the loaded python object
 as a single point of truth for the configuration.
 
@@ -77,7 +80,7 @@ as a single point of truth for the configuration.
 [celery-yaml](https://github.com/mardiros/celery-yaml/) is a library to configure a celery app
 using a yaml file instead of python module.
 
-It also use subenv in order to inject secrets or any other settings replaced on the fly while
+It also use envsub in order to inject secrets or any other settings replaced on the fly while
 reading the configuration. It let maximum of flexibility and keep the loaded python object
 as a single point of truth for the configuration.
 
