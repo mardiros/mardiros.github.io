@@ -12,7 +12,7 @@ It compiles Gherkin scenario to a pytest tests suite using python AST.
 
 It let you using pytest fixtures inside steps commands.
 
-The full documentation is here: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/tursu/).
+The documentation is avalable at: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/tursu/).
 
 The project is in development
 
@@ -21,7 +21,7 @@ The project is in development
 [fastlife](https://mardiros.github.io/fastlife/) is an asynchronous web framework based on fastapi.
 The idea is to build web application quickly.
 
-The full documentation is here: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
+The documentation is avalable at: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
 
 The project is in development
 
@@ -34,7 +34,7 @@ and asynchronous code based on asyncio.
 It is not an http client, it embed some features like service discovery, metrics,
 circuit breaker, and more.
 
-The full documentation is here: [https://mardiros.github.io/blacksmith/](https://mardiros.github.io/blacksmith/).
+The documentation is avalable at: [https://mardiros.github.io/blacksmith/](https://mardiros.github.io/blacksmith/).
 
 The project is stable and mature.
 
@@ -48,16 +48,21 @@ Some web framework integration exists that are extra packages:
 [messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
 architecture in Python 3. It support both synchronous and asynchronous code based on asyncio.
 
-The full documentation is here: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
+The documentation is avalable at: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
 
-This project is not production ready yet.
+### Pydantricks
+
+[Pydantricks](https://mardiros.github.io/pydantricks/) is a library to build fake pydantic
+models. It use Faker under the hood, to have clean fake models.
+
+The documentation is avalable at: [https://mardiros.github.io/pydantricks/](https://mardiros.github.io/pydantricks/).
 
 ### Purgatory
 
 [purgatory](https://mardiros.github.io/purgatory/) is a circuit breaker implementation for Python 3.
 It support both synchronous and asynchronous code based on asyncio.
 
-The full documentation is here: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
+The documentation is avalable at: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
 
 The project is stable and mature.
 
@@ -74,8 +79,7 @@ while reading a file stream.
 
 It has been implemented in rust and bind with pyo3 to run blazingly fast.
 
-The full documentation is here: [https://mardiros.github.io/envsub/](https://mardiros.github.io/envsub/).
-
+The documentation is avalable at: [https://mardiros.github.io/envsub/](https://mardiros.github.io/envsub/).
 
 ### plaster-yaml
 
