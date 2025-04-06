@@ -1,8 +1,26 @@
 # Mardiros' Personal Projects.
 
-Hi, I am mardiros, and I do programming. Mostly in python, rust.
+Hi, I am mardiros, and I do programming. Mostly in python, sometime in rust.
+
+Here is a curated list of personal projects that I develop and try maintain.
 
 ## Python Libraries
+
+### Fastlife
+
+[fastlife](https://mardiros.github.io/fastlife/) is an asynchronous web framework based on fastapi, htmx and JinjaX.
+The idea is to build web application quickly.
+
+The documentation is available at: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
+
+The project is in development
+
+### messagebus
+
+[messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
+architecture in Python 3. It support both synchronous and asynchronous code based on asyncio.
+
+The documentation is available at: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
 
 ### Turşu
 
@@ -12,18 +30,7 @@ It compiles Gherkin scenario to a pytest tests suite using python AST.
 
 It let you using pytest fixtures inside steps commands.
 
-The documentation is avalable at: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/tursu/).
-
-The project is in development
-
-### Fastlife
-
-[fastlife](https://mardiros.github.io/fastlife/) is an asynchronous web framework based on fastapi.
-The idea is to build web application quickly.
-
-The documentation is avalable at: [https://mardiros.github.io/fastlife/](https://mardiros.github.io/fastlife/).
-
-The project is in development
+The documentation is available at: [https://mardiros.github.io/tursu/](https://mardiros.github.io/tursu/).
 
 ### Blacksmith
 
@@ -34,7 +41,7 @@ and asynchronous code based on asyncio.
 It is not an http client, it embed some features like service discovery, metrics,
 circuit breaker, and more.
 
-The documentation is avalable at: [https://mardiros.github.io/blacksmith/](https://mardiros.github.io/blacksmith/).
+The documentation is available at: [https://mardiros.github.io/blacksmith/](https://mardiros.github.io/blacksmith/).
 
 The project is stable and mature.
 
@@ -43,26 +50,12 @@ Some web framework integration exists that are extra packages:
 - [dj-blacksmith - blacksmith for Django](https://mardiros.github.io/dj-blacksmith/)
 - [pyramid-blacksmith - blacksmith for Pyramid](https://mardiros.github.io/pyramid-blacksmith/)
 
-### messagebus
-
-[messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
-architecture in Python 3. It support both synchronous and asynchronous code based on asyncio.
-
-The documentation is avalable at: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
-
-### Pydantricks
-
-[Pydantricks](https://mardiros.github.io/pydantricks/) is a library to build fake pydantic
-models. It use Faker under the hood, to have clean fake models.
-
-The documentation is avalable at: [https://mardiros.github.io/pydantricks/](https://mardiros.github.io/pydantricks/).
-
 ### Purgatory
 
 [purgatory](https://mardiros.github.io/purgatory/) is a circuit breaker implementation for Python 3.
 It support both synchronous and asynchronous code based on asyncio.
 
-The documentation is avalable at: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
+The documentation is available at: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
 
 The project is stable and mature.
 
@@ -79,7 +72,7 @@ while reading a file stream.
 
 It has been implemented in rust and bind with pyo3 to run blazingly fast.
 
-The documentation is avalable at: [https://mardiros.github.io/envsub/](https://mardiros.github.io/envsub/).
+The documentation is available at: [https://mardiros.github.io/envsub/](https://mardiros.github.io/envsub/).
 
 ### plaster-yaml
 
@@ -100,6 +93,13 @@ It also use envsub in order to inject secrets or any other settings replaced on 
 reading the configuration. It let maximum of flexibility and keep the loaded python object
 as a single point of truth for the configuration.
 
+### Pydantricks
+
+[Pydantricks](https://mardiros.github.io/pydantricks/) is a library to build fake pydantic
+models. It use Faker under the hood, to have clean fake models.
+
+The documentation is available at: [https://mardiros.github.io/pydantricks/](https://mardiros.github.io/pydantricks/).
+
 ## Rust libraries en tools
 
 ### Rustaman
@@ -112,8 +112,7 @@ mustache.
 
 ### Cabot
 
-[cabot](https://github.com/mardiros/cabot/) is a HTTP CLI client like curl, but it is
-also a library, like reqwest.
+[cabot](https://github.com/mardiros/cabot/) is a HTTP CLI client like curl.
 
 ### Bearer
 
