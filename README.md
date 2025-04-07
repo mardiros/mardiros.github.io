@@ -18,7 +18,7 @@ The project is in development
 ### messagebus
 
 [messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
-architecture in Python 3. It support both synchronous and asynchronous code based on asyncio.
+architecture in Python. It support both synchronous and asynchronous code based on asyncio.
 
 The documentation is available at: [https://mardiros.github.io/messagebus/](https://mardiros.github.io/messagebus/).
 
@@ -28,14 +28,14 @@ The documentation is available at: [https://mardiros.github.io/messagebus/](http
 
 It compiles Gherkin scenario to a pytest tests suite using python AST.
 
-It let you using pytest fixtures inside steps commands.
+It let you use pytest fixtures inside step definitions.
 
 The documentation is available at: [https://mardiros.github.io/tursu/](https://mardiros.github.io/tursu/).
 
 ### Blacksmith
 
 [blacksmith](https://mardiros.github.io/blacksmith/) is a library to build a solid
-microservices architecture based on REST API in Python 3. It support both synchronous
+microservices architecture based on REST API in Python. It support both synchronous
 and asynchronous code based on asyncio.
 
 It is not an http client, it embed some features like service discovery, metrics,
@@ -52,7 +52,7 @@ Some web framework integration exists that are extra packages:
 
 ### Purgatory
 
-[purgatory](https://mardiros.github.io/purgatory/) is a circuit breaker implementation for Python 3.
+[purgatory](https://mardiros.github.io/purgatory/) is a circuit breaker implementation for Python.
 It support both synchronous and asynchronous code based on asyncio.
 
 The documentation is available at: [https://mardiros.github.io/purgatory/](https://mardiros.github.io/purgatory/).
