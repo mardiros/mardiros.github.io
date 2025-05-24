@@ -15,6 +15,18 @@ The documentation is available at: [https://mardiros.github.io/fastlife/](https:
 
 The project is in development
 
+### XComponent
+
+[XComponent](https://mardiros.github.io/xcomponent/) is a template engine inspired by JSX for python.
+
+The core of the template engine is written in rust using pyo3 binding.
+
+The API of this template differs to any existing template engine since all the template are written in
+python functions. There is no way to define a template distinct file.
+
+The documentation is available at: [https://mardiros.github.io/xcomponent/](https://mardiros.github.io/xcomponent/).
+
+
 ### messagebus
 
 [messagebus](https://mardiros.github.io/messagebus/) is a library to build an event driven
