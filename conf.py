@@ -1,23 +1,20 @@
 import pathlib
+import tomllib
 from datetime import datetime
-
-import tomlkit
 
 here = pathlib.Path(__file__).parent.absolute()
 
 
 # -- Project information -----------------------------------------------------
 def _get_project_meta():
-    with open(here / "pyproject.toml", "r") as pyproject:
-        file_contents = pyproject.read()
-
-    return tomlkit.parse(file_contents)["tool"]["poetry"]  # type: ignore
+    with open("../../pyproject.toml", "rb") as pyproject:
+        return tomllib.load(pyproject)["project"]
 
 
 pkg_meta = _get_project_meta()
-project = str(pkg_meta["description"])  # type: ignore
-copyright = f"2023-{datetime.utcnow().year}, unencumbered software released"
-author = ", ".join(pkg_meta["authors"])  # type: ignore
+project = str(pkg_meta["excription"])
+author = f"{pkg_meta['authors'][0]['name']} <{pkg_meta['authors'][0]['email']}>"
+copyright = pkg_meta["authors"][0]["name"]
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

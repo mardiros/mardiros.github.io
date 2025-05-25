@@ -1,15 +1,12 @@
 install:
-    poetry install
+    uv sync --frozen
 
 build:
-    poetry run sphinx-build . public
+    uv run sphinx-build . public
 
-black:
-    poetry run isort .
-    poetry run black .
-
-gh-pages:
-    poetry export -f requirements.txt -o requirements.txt --without-hashes
+fmt:
+    uv run ruff check --fix .
+    uv run ruff format src tests
 
 view:
     xdg-open public/index.html
