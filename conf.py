@@ -7,12 +7,12 @@ here = pathlib.Path(__file__).parent.absolute()
 
 # -- Project information -----------------------------------------------------
 def _get_project_meta():
-    with open("../../pyproject.toml", "rb") as pyproject:
+    with open("./pyproject.toml", "rb") as pyproject:
         return tomllib.load(pyproject)["project"]
 
 
 pkg_meta = _get_project_meta()
-project = str(pkg_meta["excription"])
+project = str(pkg_meta["description"])
 author = f"{pkg_meta['authors'][0]['name']} <{pkg_meta['authors'][0]['email']}>"
 copyright = pkg_meta["authors"][0]["name"]
 

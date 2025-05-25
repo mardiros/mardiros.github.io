@@ -1,6 +1,12 @@
 install:
     uv sync --frozen
 
+update:
+    uv sync
+
+upgrade:
+    uv sync --upgrade
+
 build:
     uv run sphinx-build . public
 
