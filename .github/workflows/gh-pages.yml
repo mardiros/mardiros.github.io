@@ -2,7 +2,7 @@ name: Doc
 
 on:
   push:
-    branches: [main] # branch to trigger deployment
+    branches: [main]
 
 jobs:
   pages:
@@ -18,5 +18,3 @@ jobs:
       uses: sphinx-notes/pages@v3
       with:
         documentation_path: .
-        requirements_path: requirements.txt
-        pyproject_extras: ""
